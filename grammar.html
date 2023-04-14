@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grammar teacher</title>
+    <link rel="stylesheet" href="/style/grammar.css"><script src="https://kit.fontawesome.com/f9b32b4e27.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container1">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Essay</a></li>
+                <li><a href="">Email</a></li>
+                <li><a href="">Grammar</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- --------------------------------containers-------------------------------------- -->
+    <div class="container2">
+        <h2>Grammar teacher</h2>
+        <p>check your english text for grammar errors with grammar teacher</p>
+        <textarea name="textarea" id="textarea" placeholder="text here......" maxlength="150"></textarea>
+        <button id="btn" onclick="send()"><span id="send">send</span></button>
+
+        <div class="counting-container">
+            <p>total character : <span id="total-count">0</span></p>
+            <p>remaing : <span id="remaining">150</span></p>
+        </div>
+        <div class="container">
+            <!-- <p>check your english text for grammar errors with grammar teacher</p> -->
+            <textarea name="textarea2" id="textarea2" maxlength="150"></textarea>
+            <button id="txt2" onclick="copyText()"><span id="copy">copy text</span></button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
