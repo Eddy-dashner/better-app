@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BetterApp</title>
     <link rel="stylesheet" href="./style/index.css">
+    <script src="https://kit.fontawesome.com/f9b32b4e27.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -16,10 +17,10 @@
         <div class="uppercontainer">
             <div class="container">
                 <nav>
-                    <input type="checkbox" id="check">
+                    <!-- <input type="checkbox" id="check">
                     <label for="check" class="checkbtn">
                         <i class="fas fa-bars"></i>
-                    </label>
+                    </label> -->
                     <ul>
                         <li><a class="active" href="">Home</a></li>
                         <li><a href="./about.html">About</a></li>
@@ -55,17 +56,42 @@
                     <button>Rwandan culture </button>
                 </div>
             </div>
-            <div class="container">
+            <div class="gram-container">
                 <!-- <p>check your english text for grammar errors with grammar teacher</p> -->
                 <textarea name="textarea2" id="textarea2" maxlength="150"></textarea>
                 <button id="txt2" onclick="copyText()"><span id="copy">copy text</span></button>
             </div>
 
+            
 
         </div>
-        <div id="footer">
+        <!-- -------------------footer----------------------- -->
 
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                       <h1 class="sub-title">Better app social media<br>platforms</h1>
+                       <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-discord"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                       </div>
+                    </div>   
+    
+                    <div class="contact-right">
+                    <h1>Join our weekly updates</h1>
+                    <p class="sub-title1">Get exclusive updates straight <br>to your inbox.</p>
+                    <form class="mami">
+                        <input type="text" class="plc" placeholder="Enter your email here" required>
+                        <button type="subscribe" class="btn">subscribe</button>
+                    </form>
+                </div>
+            </div>
+    
         </div>
+        
     </div>
 
 </body>
