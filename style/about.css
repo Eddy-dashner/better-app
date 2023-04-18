@@ -93,8 +93,12 @@ img{
     margin-left: 120px;
     margin-top: -30px;
 }
+.essay a{
+    color: #638D93;
+    /* border: 2px solid blue; */
+}
 #ess{
-    /* border: 2px solid rgb(22, 22, 102); */
+    /* border: 2px solid red; */
     margin-top: 20px;
     margin-left: 30px;
     cursor: pointer;
