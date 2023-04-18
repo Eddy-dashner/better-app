@@ -190,6 +190,7 @@ img{
 }
 .contact-right{
     /* border: 1px solid red; */
+    padding: 60px;
     margin-left: 370px;
     margin-top: -60px;
 }
@@ -205,7 +206,7 @@ img{
     border-radius: 15px;
 }
 .btn{
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
     font-size: 30px;
     margin-left: -25px;
     border-radius:15px;
