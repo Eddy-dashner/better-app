@@ -182,11 +182,18 @@ button{
 }
 .row{
     margin-top: 140px;
+    margin-left: 0px;
+    /* border: 2px solid red; */
+    padding: 140px;
+    position: relative;
+    
 }
 .contact-left{
-    margin-left: -40px;
-    border: 2px solid green;
-    font-
+    position: absolute;
+    margin-left: -140px;
+    margin-top: -140px;
+    /* border: 2px solid green; */
+    color: white;
 }
 .social-icon{
     margin-top: 20px;
@@ -205,25 +212,47 @@ button{
 }
 .contact-right{
     /* border: 1px solid red; */
-    margin-left: 370px;
+    margin-left: 150px;
     margin-top: -60px;
+    /* border: 2px solid green; */
+    padding: 60px;
+    width: 98%;
+}
+.join{
+    color: white;
 }
 .sub-title1{
     /* border: 1px solid green; */
     margin-top: 30px;
+    margin-left: -190px;
+    color: white;
 }
 .mami{
     margin-top: 30px;
+    /* border: 2px solid blue; */
+    position: relative;
 }
 .plc{
+    /* position: absolute; */
     font-size: 30px;
     border-radius: 15px;
+    width: 90%;
+    /* border: 2px solid green; */
+
 }
 .btn{
     /* border: 2px solid yellow; */
-    font-size: 30px;
-    margin-left: -25px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -37px;
+    width: 30%;
     border-radius:15px;
     background-color: #638D93;
     cursor: pointer;
+}
+#sub{
+    /* border: 2px solid red; */
+    margin-top: -18px;
+    margin-left: -20px;
+    font-size: 28px;
 }

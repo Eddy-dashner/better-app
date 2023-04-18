@@ -149,6 +149,7 @@ input {
 }
 #btn{
     margin-left: 900px;
+    border: 2px solid green;
 }
 #send{
     margin-left: 2px;
@@ -184,9 +185,13 @@ input {
 }
 .row{
     margin-top: 140px;
+    margin-left: 30px;
+    /* border: 2px solid red; */
+    padding: 95px;
 }
 .contact-left{
-    margin-left: -40px;
+    margin-left: -98px;
+    /* border: 2px solid green; */
 }
 .social-icon{
     margin-top: 20px;
@@ -206,16 +211,20 @@ input {
 .contact-right{
     /* border: 1px solid red; */
     margin-left: 370px;
-    margin-top: -60px;
+    margin-top: -10px;
 }
 .sub-title1{
     /* border: 1px solid green; */
     margin-top: 30px;
+    margin-left: -110px;
 }
 .mami{
-    margin-top: 30px;
+    margin-top: -30px;
+    margin-left: -40px;
+    width: 140%;
     /* border: 2px solid green; */
     padding: 10%;
+    position: relative;
 }
 .plc{
     font-size: 30px;
@@ -225,8 +234,10 @@ input {
 }
 .btn{
     /* border: 2px solid yellow; */
-    font-size: 30px;
-    margin-left: 75%;
+    position: absolute;
+    height: 7vh;
+    font-size: 25px;
+    margin-left: -110px;
     margin-top: 0px;
     border-radius:15px;
     background-color: #638D93;
