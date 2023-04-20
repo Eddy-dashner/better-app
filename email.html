@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grammar teacher</title>
-    <link rel="stylesheet" href="./style/grammar.css">
-    <script src="https://kit.fontawesome.com/f9b32b4e27.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./email.css">
+    <title>BetterApp</title>
 </head>
+
 <body>
+
     <div class="container1">
         <nav>
             <input type="checkbox" id="check">
@@ -17,19 +19,23 @@
             </label>
             <ul>
                 <!-- <li><a class="active" href="">Home</a></li> -->
-                <li><a href="about.html">About</a></li>
-                <li><a href="index.html">Essay</a></li>
-                <li><a href="./email.html">Email</a></li>
-                <li><a href="grammar.html">Grammar</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./index.html">Essay</a></li>
+                <li><a href="">Email</a></li>
+                <li><a href="./grammar.html">Grammar</a></li>
                 <!-- <li><a href="">contact</a></li> -->
             </ul>
         </nav>
     </div>
     <!-- --------------------------------containers-------------------------------------- -->
     <div class="container2">
-        <h2>Grammar teacher</h2>
-        <p>check your english text for grammar errors with grammar teacher</p>
-        <textarea name="textarea" id="textarea" placeholder="text here......" maxlength="150"></textarea>
+        <h2>Email Generator</h2>
+        <p> Email generator has the potential to be a useful tool for professionals who want to save time and ensure
+            that
+            their emails are effective and professional. </p>
+
+        <p> Write the subject and who you want to send it to</p>
+        <textarea name="textarea" id="textarea" placeholder="text here......" maxlength="100"></textarea>
         <button id="btn" onclick="send()"><span id="send">send</span></button>
 
         <div class="counting-container">
@@ -43,15 +49,15 @@
         </div>
     </div>
 
-    <!-- ----------------------contacts------------------------ -->
-
+    <!-- ////-------------------footer----------------------- -->
+  
 
     <div id="contact">
-        <div class="container3">
+        <div class="container">
             <div class="row">
                 <div class="contact-left">
                    <h1 class="sub-title">Better app social media<br>platforms</h1>
-                   <div class="social-icon">
+                   <div class="social-icon2">
                     <a href=""><i class="fa-brands fa-discord"></i></a>
                     <a href=""><i class="fa-brands fa-youtube"></i></a>
                     <a href=""><i class="fa-brands fa-twitter"></i></a>
@@ -60,16 +66,19 @@
                 </div>   
 
                 <div class="contact-right">
-                <h1 class="join">Join our weekly updates</h1>
+                <h1>Join our weekly updates</h1>
                 <p class="sub-title1">Get exclusive updates straight <br>to your inbox.</p>
                 <form class="mami">
                     <input type="text" class="plc" placeholder="Enter your email here" required>
-                    <button type="subscribe" class="btn"><span id="sub">subscribe</span></button>
+                    <button type="subscribe" class="btn">subscribe</button>
                 </form>
             </div>
         </div>
 
+       </div>
     </div>
-    <script src="script.js"></script>
+
+
 </body>
+
 </html>
